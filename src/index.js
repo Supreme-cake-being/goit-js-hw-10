@@ -1,7 +1,6 @@
 import { Notify } from 'notiflix';
 import { fetchBreeds, fetchCatByBreed } from './js/cat-api.js';
 
-const PISKA_BOBRA = 'piska bobra';
 const breedSelect = document.querySelector('.breed-select');
 const catInfo = document.querySelector('.cat-info');
 const loaderMessage = document.querySelector('.loader');
